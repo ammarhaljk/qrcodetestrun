@@ -246,7 +246,7 @@ if tab == "Generate QR Code":
                 st.session_state.scan_stats['total_users'] = len(st.session_state.user_data)
                 
                 # Generate QR code URL
-                base_url = "https://your-streamlit-app.streamlit.app"  # Replace with your actual URL
+                base_url = "https://qrcodetestrun.streamlit.app"  # Replace with your actual URL
                 qr_url = f"{base_url}?tab=scanner&id={user_id}&token={token}"
                 
                 # Create and display QR code
